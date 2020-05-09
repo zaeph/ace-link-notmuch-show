@@ -9,7 +9,7 @@ This library provides a [`ace-link`](https://github.com/abo-abo/ace-link) handle
 Screenshots
 ---------------
 <p align="center">
-    <img alt="Screenshot for plain-links" src="doc/screen-plain.png" width="30%"> <img alt="Screenshot for html-links" src="doc/screen-html.png" width="30%"> <img alt="Screenshot with both types of links" src="doc/screen-html.png" width="30%">
+    <img alt="Screenshot for plain-links" src="doc/screen-plain.png" width="30%"> <img alt="Screenshot for html-links" src="doc/screen-html.png" width="30%"> <img alt="Screenshot with both types of links" src="doc/screen-plain+html.png" width="30%">
 </p>
 
 Installation
