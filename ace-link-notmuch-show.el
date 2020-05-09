@@ -91,7 +91,6 @@ Only consider the 'text/plain' portion of the buffer."
   (or (text-property-any (elt link 1) (point-max) (elt link 0) nil)
       (point-max)))
 
-;;;###autoload
 (defun ace-link--notmuch-show-html-collect ()
   "Collect the positions of visible links in current `notmuch-show' buffer."
   (save-excursion
@@ -115,6 +114,7 @@ Only works in 'text/html'"
     (when (get-text-property (point) 'shr-url)
       (shr-browse-url))))
 
+;;;###autoload
 (defun ace-link-notmuch-show-html ()
   "Open a visible link in a `notmuch-show' buffer.
 Only consider the 'text/html' portion of the buffer."
