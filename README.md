@@ -1,6 +1,8 @@
 ace-link-notmuch-show
 ============
 
+The library has been merged upstream.
+
 Description
 ---------------
 
